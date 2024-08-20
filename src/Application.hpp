@@ -12,8 +12,8 @@
 #define LOCAL_GROUP_RADIUS      150
 #define AVERAGE_POS_STRENGTH    0.03F
 #define AVERAGE_DIR_STRENGTH    0.01F
-#define AVOID_RADIUS            50
-#define AVOID_STRENGTH          0.06F
+#define AVOID_RADIUS            25
+#define AVOID_STRENGTH          0.05F
 
 #define WIN_WIDTH  1000
 #define WIN_HEIGHT 1000

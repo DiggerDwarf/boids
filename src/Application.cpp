@@ -85,7 +85,7 @@ bool update( Bird ( & birds )[ BIRD_NUMBER ], sf::RenderWindow* window, sf::View
         avoidSteer = 0;
         for (Bird& otherBird : birds)
         {
-            // if (isSame(bird, otherBird)) continue;
+            if (isSame(bird, otherBird)) continue;
             btod = length(otherBird.position - bird.position);
             if (btod > LOCAL_GROUP_RADIUS) continue;
             localGroupSize++;
